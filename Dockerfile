@@ -1,10 +1,10 @@
 
-FROM node:10-slim
+FROM node:8
 
-LABEL version="1.0.0"
-LABEL repository="https://github.com/w9jds/firebase-action"
-LABEL homepage="https://github.com/w9jds/firebase-action"
-LABEL maintainer="Jeremy Shore <w9jds@github.com>"
+LABEL version="0.1.0"
+LABEL repository="https://github.com/kdawgwilk/firebase-action"
+LABEL homepage="https://github.com/kdawgwilk/firebase-action"
+LABEL maintainer="Kaden Wilkinson <kdawgwilk@github.com>"
 
 LABEL com.github.actions.name="GitHub Action for Firebase"
 LABEL com.github.actions.description="Wraps the firebase-tools CLI to enable common commands."
